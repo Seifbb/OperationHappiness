@@ -7,7 +7,7 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 
 # Load your trained model
-with open('../prophet_model.pkl', 'rb') as f:
+with open('prophet_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Load data
